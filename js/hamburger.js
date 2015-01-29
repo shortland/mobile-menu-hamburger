@@ -8,6 +8,7 @@
  * Created by Thomas Zinnbauer YMC AG  |  http://www.ymc.ch
  * Date: 21.05.13
  */
+localStorage.setItem('menu_action', 'closed');
 
 jQuery(document).ready(function () {
 
