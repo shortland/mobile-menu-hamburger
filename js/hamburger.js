@@ -26,7 +26,6 @@ jQuery(document).ready(function () {
     }
     if(menu_action == "closed_d")
     {
-        jQuery('#header_title').fadeToggle('fast');
         jQuery('#content').css('min-height', jQuery(window).height());
         jQuery('nav').css('opacity', 1);
         var contentWidth = jQuery('#content').width();
@@ -42,7 +41,6 @@ jQuery(document).ready(function () {
     }
     if(menu_action == "open_d")
     {
-        jQuery('#header_title').fadeToggle('fast');
         jQuery('#container').unbind('touchmove');
         jQuery("#container").animate({"marginLeft": ["-1", 'easeOutExpo']}, {
         duration: 700,
